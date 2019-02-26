@@ -1,0 +1,17 @@
+<!--pages/comon/template/imgText/comp.wxml-->
+<view class="img-text">
+    <view class="image-wrapper">
+        <image class="image" src="{{ imgSrc }}" mode="widthFix" />
+    </view>
+    <view class="main">
+        <view class="title-wrapper">
+            <text class="title" selectable="false">{{ title }}</text>
+        </view>
+        <view class="addr-time">
+            <view class="address" selectable="false">{{ address }}</view>
+            <view class="timeout" selectable="false">
+                <text>还剩<text class="blue">120</text>小时<text class="blue">23</text>分</text>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "v-imgText": "/pages/common/template/imgText/comp"
+  }
+}

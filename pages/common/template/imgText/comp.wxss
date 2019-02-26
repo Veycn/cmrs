@@ -1,0 +1,39 @@
+/* pages/comon/template/imgText/comp.wxss */
+.img-text {
+    display: flex;
+    flex-direction: row;
+}
+.img-text .image {
+    width: 100rpx;
+    height: 75rpx;
+    display: inline-block;
+}
+.main {
+    margin-left: 19rpx;
+} 
+.title-wrapper {
+    height: 40rpx;
+    margin-top: -10rpx;
+    margin-bottom: 12rpx;
+}
+.title {
+    font-size: 32rpx;
+    color: #585858;
+}
+.addr-time {
+    width: 552rpx;
+    display: flex;
+    color: #797979;
+    justify-content: space-between;
+}
+.blue {
+    color: #4C6FF3;
+}
+.address {
+    color: #797979;
+    max-width: 336rpx;
+}
+.address, .timeout {
+    display: block;
+    font-size: 20rpx;
+}

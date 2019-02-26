@@ -49,7 +49,8 @@
 				{
 					"id": -1,
 					"name": "reward_detail",
-					"pathName": "pages/comon/page/reward_detail/reward_detail",
+					"pathName": "pages/common/page/reward_detail/reward_detail",
+					"query": "",
 					"scene": null
 				}
 			]

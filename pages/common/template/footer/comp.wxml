@@ -1,0 +1,9 @@
+<!--pages/comon/template/footer/comp.wxml-->
+<view class="footer">
+    <button class="btn">
+        <view class="cancel">我要撤销</view>
+    </button>
+    <button class="btn">
+        <view class="complete">我要接单</view>
+    </button>
+</view>

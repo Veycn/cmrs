@@ -1,0 +1,51 @@
+<!--pages/comon/page/reward_detail/reward_detail.wxml-->
+<view class="container">
+    <view class="task-title">
+        <view class="img-wrapper">
+            <image class="img" src="./img/circle.png" />
+        </view>
+        <view class="title-wrapper">
+            <text class="title">{{ '2019全国计算机大赛招募' }}</text>
+        </view>
+    </view>
+    <view class="task-detail">
+        <view class="detail-wrapper">
+            <view class="detail">
+                <text class="desc">任务地址：<text class="">{{ '重庆市教育局' }}</text></text>
+                <text class="desc">任务时间：<text class="">{{ '2018年12月18日 - 2018年12月30日' }}</text></text>
+            </view>
+            <view class="detail">
+                <text class="detail-title">任务详情：<text
+                        class="content">{{ '12月17日，位于日内瓦的世界贸 。易组织（总部并不平静。  当天，WTO对美国  展开贸易政策审议。在会议上，中国对美国今年以来实施的钢铝关税等单边主义和保护主义政策以及美国阻挠上诉。' }}</text></text>
+            </view>
+            <view class="pic-wrapper">
+                <text class="detail-title detail-pic">任务图片：</text>
+                <image class="img" src="./img/rec.png" />
+            </view>
+        </view>
+    </view>
+    <view class="contact-wrapper">
+        <view class="temp">
+            <view class="contact">
+                <text class="info">联系人：{{'xxx'}} ({{male == 0 ? '先生' : '女士'}})</text>
+                <!-- <text class="info">{{ '17845874576' }}</text> -->
+                <image class="phoneCall" src="" catch:tap="makePhoneCall" data-phoneNum="{{phoneNum}}"/>
+            </view>
+            <view class="address-wrapepr">
+                <text class="info">联系地址：<text class="">{{'重庆市渝中区两路口重庆村1号17-13'}}</text>
+                </text>
+            </view>
+            <view class="price-wrapper">
+                <text class="price">￥{{'8'}}</text>
+            </view>
+        </view>
+        <view class="footer">
+            <button class="btn">
+                <view class="cancel">我要撤销</view>
+            </button>
+            <button class="btn">
+                <view class="complete">我要接单</view>
+            </button>
+        </view>
+    </view>
+</view>

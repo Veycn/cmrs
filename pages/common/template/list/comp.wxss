@@ -20,47 +20,8 @@
     width: 100%;
     height: 100%;
 }
-.img-text {
-    display: flex;
-    flex-direction: row;
-}
-.img-text .image {
-    border: 1px dashed #ccc;
-    width: 100rpx;
-    height: 75rpx;
-    display: inline-block;
-}
-.main {
-    margin-left: 19rpx;
-} 
-.title-wrapper {
-    height: 40rpx;
-    margin-top: -10rpx;
-    margin-bottom: 12rpx;
-}
-.title {
-    font-size: 32rpx;
-    color: #585858;
-}
-.addr-time {
-    width: 552rpx;
-    display: flex;
-    color: #797979;
-    justify-content: space-between;
-}
-.blue {
-    color: #4C6FF3;
-}
-.address {
-    color: #797979;
-    max-width: 336rpx;
-}
-.address, .timeout {
-    display: block;
-    font-size: 20rpx;
-}
 .description {
-    margin-top: 20rpx;
+    line-height: 1;
 }
 .desc {
     color: #585858;

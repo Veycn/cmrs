@@ -1,9 +1,10 @@
 {
   "pages": [
-    "pages/comon/page/reward/reward",
-    "pages/comon/page/index/index",
+    "pages/common/page/reward/reward",
+    "pages/common/page/index/index",
     "pages/logs/logs",
-    "pages/comon/page/reward_detail/reward_detail"
+    "pages/common/page/reward_detail/reward_detail",
+    "pages/common/page/issue/issue"
   ],
   "window": {
     "backgroundTextStyle": "light",

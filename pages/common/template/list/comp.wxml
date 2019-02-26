@@ -3,22 +3,11 @@
     <view class="bg-img" hover-class="none" hover-stop-propagation="false">
         <image class="image" src="./img/rec.png" mode="widthFix" />
     </view>
-    <view class="img-text">
-        <view class="image-wrapper">
-            <image class="image" src="{{ todo.imgSrc }}" mode="widthFix" />
-        </view>
-        <view class="main">
-            <view class="title-wrapper">
-                <text class="title" selectable="false">{{ todo.title }}</text>
-            </view>
-            <view class="addr-time">
-                <view class="address" selectable="false">{{ todo.addr }}</view>
-                <view class="timeout" selectable="false">
-                    <text>还剩<text class="blue">120</text>小时<text class="blue">23</text>分</text>
-                </view>
-            </view>
-        </view>
-    </view>
+
+    <v-imgText img-src="{{todo.imgSrc}}" 
+               title="{{todo.title}}" 
+               address="{{todo.addr}}"/>
+
     <view class="description">
         <text class="desc" selectable="false">{{ todo.desc ? todo.desc : '没有描述'}}</text>
     </view>

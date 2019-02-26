@@ -22,7 +22,7 @@ Component({
   methods: {
     toAccept (e) {
       wx.navigateTo({
-        url: '/pages/comon/page/reward_detail/reward_detail',
+        url: '/pages/common/page/reward_detail/reward_detail',
         success: function(res){
           // success
         },
