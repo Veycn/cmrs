@@ -1,0 +1,13 @@
+<!--pages/comon/template/searchBar/comp.wxml-->
+<view class="container">
+    <view class="search">
+        <input type="text" class="searchInput" />
+        <view class="icon-wrapper">
+            <image class="img" src="./img/search.png"></image>
+        </view>
+    </view>
+    <view class="rightBar">
+        <image class="img" src="./img/list.png" catch:tap="onShowList"></image>
+        <image class="img" src="./img/add.png" catch:tap="onAddItem"></image>
+    </view>
+</view>

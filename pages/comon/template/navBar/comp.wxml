@@ -1,0 +1,22 @@
+<!--pages/comon/template/navBar/comp.wxml-->
+<view class="container">
+    <view class="sort-wrapper">
+        <view class="sort" catch:tap="onSort">
+            <image class="image" src="./img/more.png" />
+            <text class="text" selectable="false">{{ curMethod }}</text>
+        </view>
+    </view>
+    <scroll-view class="nav-wrapper" 
+                 scroll-with-animation="true"
+                 scroll-x="true" scroll-into-view="{{ activeId }}">
+        <text catch:tap="onTap" wx:for="{{navList}}" wx:key="index" data-index="{{index}}" id="{{ 'i' + index }}"
+            class="item {{ curIndex === index ? 'active' : '' }}" selectable="false">{{ item }}</text>
+    </scroll-view>
+        <view class="mask" hidden="{{ !sortBlockShow }}">
+            <view class="content">
+                <view class="method {{ curMethodIndex === index ? 'active' : '' }}" wx:for="{{sortMethod}}"
+                    wx:key="{{index}}" catch:tap="changeMethod" data-index="{{index}}">{{ item }}</view>
+            </view>
+        </view>
+    
+</view>

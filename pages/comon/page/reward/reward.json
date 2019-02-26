@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "悬赏中心",
+  "usingComponents": {
+    "v-search": "../../template/searchBar/comp",
+    "v-navBar": "../../template/navBar/comp",
+    "v-list": "../../template/list/comp"
+  }
+}

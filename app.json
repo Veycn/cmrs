@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/comon/page/reward/reward",
+    "pages/comon/page/index/index",
+    "pages/logs/logs",
+    "pages/comon/page/reward_detail/reward_detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

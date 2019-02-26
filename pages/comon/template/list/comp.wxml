@@ -1,0 +1,33 @@
+<!--pages/comon/template/list/comp.wxml-->
+<view class="container">
+    <view class="bg-img" hover-class="none" hover-stop-propagation="false">
+        <image class="image" src="./img/rec.png" mode="widthFix" />
+    </view>
+    <view class="img-text">
+        <view class="image-wrapper">
+            <image class="image" src="{{ todo.imgSrc }}" mode="widthFix" />
+        </view>
+        <view class="main">
+            <view class="title-wrapper">
+                <text class="title" selectable="false">{{ todo.title }}</text>
+            </view>
+            <view class="addr-time">
+                <view class="address" selectable="false">{{ todo.addr }}</view>
+                <view class="timeout" selectable="false">
+                    <text>还剩<text class="blue">120</text>小时<text class="blue">23</text>分</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="description">
+        <text class="desc" selectable="false">{{ todo.desc ? todo.desc : '没有描述'}}</text>
+    </view>
+    <view class="price-accept">
+        <view class="price">
+            ￥<text class="num" selectable="false">{{ todo.price }}</text> 
+        </view>
+        <view class="accept-wrapper">
+            <button class="btn" catch:tap="toAccept"><view class="">我要接单</view></button>
+        </view>
+    </view>
+</view>

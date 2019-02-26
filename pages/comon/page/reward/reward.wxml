@@ -1,0 +1,18 @@
+<!--pages/comon/page/reward/reward.wxml-->
+<view class="container">
+    <view class="top">
+            <v-search class="search"></v-search>
+            <v-navBar class="nav"></v-navBar>
+    </view>
+      
+    <view class="content">
+        <view class="notice-wrapper">
+            <view class="notice">
+                <text class="text" selectable="false">{{'jack'}}刚刚完成任务获得{{12}}元</text>
+            </view>
+        </view>
+        <block wx:for="{{ todoList }}" wx:key="index">
+            <v-list todo="{{ item }}" class="list-item"></v-list>
+        </block>
+    </view>
+</view>
